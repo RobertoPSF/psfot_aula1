@@ -1,2 +1,2 @@
-# psfot_aula1
+# psoft_aula1
 Repositório sobre a primeira aula da disciplina Projeto de Software
