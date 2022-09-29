@@ -38,4 +38,8 @@ public class Lote {
         this.produto = produto;
     }
 
+    @Override
+    public String toString(){
+        return "Produto: " + this.produto.getNome() + "\nQuantidade: " + getQuantidade() + "\nData de validade: " + getData();
+    }
 }
