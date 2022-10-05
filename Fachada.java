@@ -3,15 +3,15 @@ public class Fachada {
     private Service s = new Service();
 
     public void criarProduto(String nome, String fabricante, double preco){
-        this.s.criarProduto(nome, fabricante, preco);
+        s.criarProduto(nome, fabricante, preco);
     }
 
-    public void criarLote(){
-        s.criarLote();
+    public void criarLote(int quantidade, String data, String nome){
+        s.criarLote(quantidade, data, nome);
     }
 
     public void lerProdutos(){
-        this.s.lerProdutos();
+        s.lerProdutos();
     }
 
     public void lerLote(){
@@ -19,11 +19,11 @@ public class Fachada {
     }
 
     /*public void atualizarProduto(String nome, String fabricante, double preco){
-        this.s.atualizarProduto(nome, fabricante, preco);
+        s.atualizarProduto(nome, fabricante, preco);
 
     }
 
     public void excluirProduto(String nome, String fabricante, double preco){
-        this.s.excluirProduto(nome, fabricante, preco);  
+        s.excluirProduto(nome, fabricante, preco);  
     }*/
 }

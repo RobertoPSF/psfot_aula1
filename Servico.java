@@ -4,7 +4,7 @@ public class Servico{
         Fachada fachada = new Fachada();
 
         fachada.criarProduto("Cuscuz", "Vitamilho", 1.50);
-        fachada.criarLote();
+        fachada.criarLote(1000, "05/10/2023", "Cuscuz");
         fachada.lerProdutos();
         fachada.lerLote();
         /*fachada.atualizarProduto("Cuscuz","Vitamilho", 2.50);

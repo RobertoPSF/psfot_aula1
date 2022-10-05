@@ -40,6 +40,6 @@ public class Lote {
 
     @Override
     public String toString(){
-        return "Produto: " + this.produto.getNome() + "\nQuantidade: " + getQuantidade() + "\nData de validade: " + getData();
+        return "\nProduto: " + this.produto.getNome() + "\nQuantidade: " + getQuantidade() + "\nData de validade: " + getData();
     }
 }
