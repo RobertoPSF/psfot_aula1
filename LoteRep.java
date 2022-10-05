@@ -12,4 +12,8 @@ public class LoteRep {
     public Map<String, Lote> lerLote(){
         return lotes;
     }
+
+    public void atualizarLote(){}
+
+    public void exlcuirLote(){}
 }

@@ -18,12 +18,16 @@ public class Fachada {
         s.lerLote();
     }
 
-    /*public void atualizarProduto(String nome, String fabricante, double preco){
+    public void atualizarProduto(String nome, String fabricante, double preco){
         s.atualizarProduto(nome, fabricante, preco);
 
     }
 
+    public void atualizarLote(){}
+
     public void excluirProduto(String nome, String fabricante, double preco){
         s.excluirProduto(nome, fabricante, preco);  
-    }*/
+    }
+
+    public void excluirLote(){}
 }

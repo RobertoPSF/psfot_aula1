@@ -7,9 +7,12 @@ public class Servico{
         fachada.criarLote(1000, "05/10/2023", "Cuscuz");
         fachada.lerProdutos();
         fachada.lerLote();
-        /*fachada.atualizarProduto("Cuscuz","Vitamilho", 2.50);
+        fachada.atualizarProduto("Cuscuz","Vitamilho", 2.50);
+        fachada.atualizarLote();
         fachada.excluirProduto("Cuscuz", "Vitamilho", 2.50);
-        fachada.lerProdutos();*/
+        fachada.excluirLote();
+        fachada.lerProdutos();
+        fachada.lerLote();
         
     }
 }

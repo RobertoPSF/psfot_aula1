@@ -13,16 +13,16 @@ public class ProdRep {
         return mapaProdutos;
     }
 
-    /*public void atualizarProduto(Produto p){
-        for (Produto produto : produtos) {
+    public void atualizarProduto(Produto p){
+        for (Produto produto : mapaProdutos.values()) {
             if (produto.getNome() == p.getNome()){
-                produtos.remove(produto);
-                produtos.add(p);
+                mapaProdutos.remove(p.getNome());
+                mapaProdutos.put(p.getNome(), p);
             }   
         }
     }
 
     public void excluirProduto(Produto p){
-        produtos.remove(p);
-    }*/
+        mapaProdutos.remove(p.getNome());
+    }
 }

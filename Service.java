@@ -18,26 +18,38 @@ public class Service {
     }
 
     public void lerProdutos(){
-        Map<String, Produto> mapa = rp.lerProduto();
-        for (Produto produto : mapa.values()) {
-            System.out.println(produto);
+        Map<String, Produto> mapaProdutos = rp.lerProduto();
+        if (mapaProdutos.size() != 0){
+            for (Produto produto : mapaProdutos.values()) {
+                System.out.println(produto);
+            }
+        } else {
+            System.out.println("\nNão tem produtos cadastrados.");
         }
     }
 
     public void lerLote(){
         Map<String, Lote> mapaLote = lr.lerLote();
-        for (Lote lote : mapaLote.values()) {
-            System.out.println(lote);
+        if (mapaLote.size() != 0) {
+            for (Lote lote : mapaLote.values()) {
+                System.out.println(lote);
+            }
+        } else {
+            System.out.println("\nNão tem lotes cadastrados.");
         }
     }
 
-    /*public void atualizarProduto(String nome, String fabricante, double preco){
+    public void atualizarProduto(String nome, String fabricante, double preco){
         Produto p = new Produto(nome, fabricante, preco);
         rp.atualizarProduto(p);
     }
 
+    public void atualizarLote(){}
+
     public void excluirProduto(String nome, String fabricante, double preco){
         Produto p = new Produto(nome, fabricante, preco);
         rp.excluirProduto(p);
-    }*/
+    }
+
+    public void excluirLote(){}
 }
