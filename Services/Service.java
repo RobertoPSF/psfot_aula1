@@ -1,4 +1,10 @@
+package Services;
 import java.util.Map;
+
+import Classes.Lote;
+import Classes.Produto;
+import Repositorios.LoteRep;
+import Repositorios.ProdRep;
 
 public class Service {
 

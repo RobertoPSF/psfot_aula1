@@ -1,5 +1,4 @@
-
-
+package Classes;
 public class Lote {
 
     private int quantidade;

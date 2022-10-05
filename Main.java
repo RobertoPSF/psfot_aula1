@@ -1,4 +1,6 @@
-public class Servico{
+import Controle.Fachada;
+
+public class Main{
     public static void main(String[] args){
 
         Fachada fachada = new Fachada();

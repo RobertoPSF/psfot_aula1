@@ -1,5 +1,8 @@
+package Repositorios;
 import java.util.HashMap;
 import java.util.Map;
+
+import Classes.Produto;
 
 public class ProdRep {
 

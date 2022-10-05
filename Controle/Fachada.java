@@ -1,3 +1,7 @@
+package Controle;
+
+import Services.Service;
+
 public class Fachada {
 
     private Service s = new Service();
